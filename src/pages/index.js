@@ -35,63 +35,63 @@ export default function CustomizedTimeline() {
           <TimelineItemComponent
             year="-150,000"
             title="World of Warcraft: Chronicle Volume 1"
-            image="/../../static/World_of_Warcraft_Chronicle_Volume_1.jpg"
+            image="../static/World_of_Warcraft_Chronicle_Volume_1.jpg"
             type="Illustrated Novel"
             link="somethingsomething">
           </TimelineItemComponent>
           <TimelineItemComponent
             year="-125,000"
             title="War of the Ancients Trilogy"
-            image="/../../static/War_of_the_ancients_Trilogy_book_1.jpg"
+            image="../static/War_of_the_ancients_Trilogy_book_1.jpg"
             type="Novel"
             link="somethingsomething">
           </TimelineItemComponent>
           <TimelineItemComponent
             year="-110,000"
             title="World of Warcraft: Chronicle Volume 2"
-            image="/../../static/World_of_Warcraft_Chronicle_Volume_2.jpg"
+            image="../static/World_of_Warcraft_Chronicle_Volume_2.jpg"
             type="Illustrated Novel"
             link="somethingsomething">
           </TimelineItemComponent>
           <TimelineItemComponent
             year="-125,000"
             title="A Warrior Made"
-            image="/../../static/Warcraft_Legends_Volume_4.jpg"
+            image="../static/Warcraft_Legends_Volume_4.jpg"
             type="Manga"
             link="somethingsomething">
           </TimelineItemComponent>
           <TimelineItemComponent
             year="-125,000"
             title="Rise of the Horde"
-            image="/../../static/rise_of_the_horde.jpg"
+            image="../static/rise_of_the_horde.jpg"
             type="Novel"
             link="somethingsomething">
           </TimelineItemComponent>
           <TimelineItemComponent
             year="-125,000"
             title="Family Values"
-            image="/../../static/Warcraft_Legends_Volume_2.jpg"
+            image="../static/Warcraft_Legends_Volume_2.jpg"
             type="Manga"
             link="somethingsomething">
           </TimelineItemComponent>
           <TimelineItemComponent
             year="-125,000"
             title="Unbroken"
-            image="/../../static/unbroken.jpg"
+            image="../static/unbroken.jpg"
             type="Short Story"
             link="somethingsomething">
           </TimelineItemComponent>
           <TimelineItemComponent
             year="-125,000"
             title="The First Guardian"
-            image="/../../static/Warcraft_Legends_Volume_5.jpg"
+            image="../static/Warcraft_Legends_Volume_5.jpg"
             type="Manga"
             link="somethingsomething">
           </TimelineItemComponent>
           <TimelineItemComponent
             year="-125,000"
             title="The Last Guardian"
-            image="/../../static/The_Last_Guardian.jpg"
+            image="../static/The_Last_Guardian.jpg"
             type="Novel"
             link="somethingsomething">
           </TimelineItemComponent>
@@ -104,7 +104,7 @@ export default function CustomizedTimeline() {
           <TimelineItemComponent
             year="-150,000"
             title="Warcraft: Orcs and Humans"
-            image="/../../static/Warcraft_Orcs_and_Humans.jpg"
+            image="../static/Warcraft_Orcs_and_Humans.jpg"
             type="Game"
             link="somethingsomething">
           </TimelineItemComponent>
@@ -117,14 +117,14 @@ export default function CustomizedTimeline() {
           <TimelineItemComponent
               year="-150,000"
               title="Warcraft II: Tides of Darkness"
-              image="/../../static/"
+              image="../static/"
               type="Game"
               link="somethingsomething">
             </TimelineItemComponent>
             <TimelineItemComponent
               year="-150,000"
               title="Tides of Darkness"
-              image="/../../static/"
+              image="../static/"
               type="Novel"
               link="somethingsomething">
             </TimelineItemComponent>
@@ -138,42 +138,42 @@ export default function CustomizedTimeline() {
           <TimelineItemComponent
               year="-150,000"
               title="Warcraft II: Beyond the Dark Portal"
-              image="/../../static/"
+              image="../static/"
               type="Game"
               link="somethingsomething">
             </TimelineItemComponent>
             <TimelineItemComponent
               year="-150,000"
               title="Beyond the Dark Portal"
-              image="/../../static/"
+              image="../static/"
               type="Novel"
               link="somethingsomething">
             </TimelineItemComponent>
             <TimelineItemComponent
               year="-150,000"
               title="Day of the Dragon"
-              image="/../../static/"
+              image="../static/"
               type="Novel"
               link="somethingsomething">
             </TimelineItemComponent>
             <TimelineItemComponent
               year="-150,000"
               title="Road to Damnation"
-              image="/../../static/"
+              image="../static/"
               type="Short Story"
               link="somethingsomething">
             </TimelineItemComponent>
             <TimelineItemComponent
               year="-150,000"
               title="Lord of the Clans"
-              image="/../../static/"
+              image="../static/"
               type="Novel"
               link="somethingsomething">
             </TimelineItemComponent>
             <TimelineItemComponent
               year="-150,000"
               title="Of Blood and Honor"
-              image="/../../static/"
+              image="../static/"
               type="Novel"
               link="somethingsomething">
             </TimelineItemComponent>
@@ -186,7 +186,7 @@ export default function CustomizedTimeline() {
         <TimelineItemComponent
               year="-150,000"
               title="Warcraft III: Reign of Chaos"
-              image="/../../static/"
+              image="../static/"
               type="Game"
               link="somethingsomething">
             </TimelineItemComponent>
@@ -199,14 +199,14 @@ export default function CustomizedTimeline() {
         <TimelineItemComponent
               year="-150,000"
               title="Warcraft III: The Frozen Throne"
-              image="/../../static/"
+              image="../static/"
               type="Game"
               link="somethingsomething">
             </TimelineItemComponent>
             <TimelineItemComponent
               year="-150,000"
               title="Arthas: Rise of the Lich King"
-              image="/../../static/"
+              image="../static/"
               type="Novel"
               link="somethingsomething">
             </TimelineItemComponent>
