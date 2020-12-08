@@ -2,9 +2,10 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Timeline from '@material-ui/lab/Timeline';
 import Typography from '@material-ui/core/Typography';
-import { AppBar, Toolbar, IconButton } from '@material-ui/core';
-import MenuIcon from '@material-ui/icons/Menu'
-import TimelineItemComponent from './timelineItemComponent';
+import TimelineItemComponent from '../components/timelineItemComponent';
+import AppBarComponent from '../components/appbarComponent';
+import BackgroundVideo from './intro';
+import 'fontsource-roboto';
 
 const useStyles = makeStyles((theme) => ({
   paper: {
@@ -16,24 +17,18 @@ const useStyles = makeStyles((theme) => ({
   media: {
     height: 300,
   },
+  background: {
+    background: 'black'
+  }
 }));
 
 export default function CustomizedTimeline() {
   const classes = useStyles();
-
   return (
-    <div>
-      <AppBar>
-        <Toolbar>
-          <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
-            <MenuIcon />
-          </IconButton>
-          <Typography variant="h6" className={classes.title}>
-            Warcraft Timeline
-          </Typography>
-        </Toolbar>
-      </AppBar>
-      <Typography variant="h3" align="center">
+    <div color="secondary">
+      <AppBarComponent/>
+      <BackgroundVideo/>
+      <Typography variant="h3" color="Primary" align="center" id="EarlyAzeroth">
         Early Azeroth History
       </Typography>
         <Timeline align="alternate">
@@ -220,7 +215,7 @@ export default function CustomizedTimeline() {
       <Typography variant="h3" align="center">
        Pre-WoW todo
       </Typography>
-      <Typography variant="h3" align="center">
+      <Typography variant="h3" align="center" id="WorldofWarcraft">
        World of Warcraft
       </Typography>
       <Typography variant="h3" align="center">

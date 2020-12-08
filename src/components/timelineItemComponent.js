@@ -1,22 +1,12 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import Timeline from '@material-ui/lab/Timeline';
 import TimelineItem from '@material-ui/lab/TimelineItem';
 import TimelineSeparator from '@material-ui/lab/TimelineSeparator';
 import TimelineConnector from '@material-ui/lab/TimelineConnector';
 import TimelineContent from '@material-ui/lab/TimelineContent';
 import TimelineOppositeContent from '@material-ui/lab/TimelineOppositeContent';
 import TimelineDot from '@material-ui/lab/TimelineDot';
-// import LaptopMacIcon from '@material-ui/icons/LaptopMac';
-// import HotelIcon from '@material-ui/icons/Hotel';
-// import RepeatIcon from '@material-ui/icons/Repeat';
-// import MenuBook from '@material-ui/icons/MenuBook';
-// import LibraryBooks from '@material-ui/icons/LibraryBooks';
-// import Bathtub from '@material-ui/icons/Bathtub'
-// import SportsEsportsIcon from '@material-ui/icons/SportsEsports'
-// import BurstModeIcon from '@material-ui/icons/BurstMode'
-import {MenuBook, PlayArrow, Hotel, Repeat, LibraryBooks, Bathtub, SportsEsports, BurstMode} from '@material-ui/icons';
-import Paper from '@material-ui/core/Paper';
+import {MenuBook, PlayArrow, LibraryBooks, Bathtub, SportsEsports, BurstMode} from '@material-ui/icons';
 import Typography from '@material-ui/core/Typography';
 import Card from '@material-ui/core/Card';
 import CardActionArea from '@material-ui/core/CardActionArea';
