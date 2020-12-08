@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix:"/warcraft-timeline",
   plugins: [
     {
       resolve: "gatsby-plugin-google-analytics",
